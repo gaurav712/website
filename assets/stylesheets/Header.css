@@ -22,6 +22,11 @@
   cursor: pointer;
 }
 
+.headerNavigationList li a {
+  text-decoration: none;
+  color: unset;
+}
+
 .headerNavigationList li:hover {
   opacity: 0.5;
 }
