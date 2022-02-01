@@ -1,4 +1,5 @@
 import React from "react";
+//@ts-ignore}
 import Helmet from "react-helmet";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useDarkMode } from "./ui/DarkModeHook";
