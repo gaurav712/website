@@ -1,0 +1,27 @@
+.headerContainer {
+  margin: -8px;
+  padding: 1.25em;
+  background: white;
+  box-shadow: 0 0 0.75px rgba(0, 0, 0, 0.5);
+}
+
+.headerNavigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerNavigationList {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+}
+
+.headerNavigationList li {
+  margin: 0 1.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.headerNavigationList li:hover {
+  opacity: 0.5;
+}
