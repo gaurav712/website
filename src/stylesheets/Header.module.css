@@ -30,3 +30,9 @@
 .headerNavigationList li:hover {
   opacity: 0.5;
 }
+
+.selectedTab {
+  border-bottom: 2px solid var(--clr-text-light);
+  padding: 0 2.5px;
+  padding-bottom: 5px;
+}

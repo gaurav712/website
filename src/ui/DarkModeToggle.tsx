@@ -55,7 +55,8 @@ const DarkModeToggle: React.FC = () => {
   return (
     <MaterialUISwitch
       sx={{ m: 1 }}
-      value={isDarkMode}
+      // value={isDarkMode}
+      defaultChecked={isDarkMode}
       onChange={(val) => {
         setDarkMode(!isDarkMode);
       }}

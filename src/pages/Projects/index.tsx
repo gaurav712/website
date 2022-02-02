@@ -1,7 +1,13 @@
 import React from "react";
+import Header from "../../components/Header";
 
 const Projects: React.FC = () => {
-  return <>This is Projects</>;
+  return (
+    <>
+      <Header selectedTab="Projects" />
+      This is Projects
+    </>
+  );
 };
 
 export default Projects;
