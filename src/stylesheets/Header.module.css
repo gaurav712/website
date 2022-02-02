@@ -2,7 +2,6 @@
   margin: -8px;
   padding: 1.25em;
   background: var(--bg);
-  box-shadow: 0 1px 2px var(--clr-shadow);
 }
 
 .headerNavigation {
@@ -34,5 +33,5 @@
 .selectedTab {
   border-bottom: 2px solid var(--clr-text-light);
   padding: 0 2.5px;
-  padding-bottom: 5px;
+  padding-bottom: 2.5px;
 }
